@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php 
     include 'includes/header.php';
 
@@ -22,7 +21,6 @@ $toys = get_toys($pdo);
     <?php endforeach; ?>
 </section>
 <?php include 'includes/footer.php'; ?>
-=======
 <?php
   $browser_language = (string) (isset($_SERVER['HTTP_ACCEPT_LANGUAGE']) === true && $_SERVER['HTTP_ACCEPT_LANGUAGE'] !== '') ? strtok(strip_tags($_SERVER['HTTP_ACCEPT_LANGUAGE']), ',') : '';
   $browser_language = (isset($_GET['language']) === true && $_GET['language'] !== '') ? $_GET['language'] : $browser_language;
@@ -137,4 +135,3 @@ $toys = get_toys($pdo);
     <?php endif; ?>
   </body>
 </html>
->>>>>>> 2bdbc14404d494504be23718207d0b96703ea703
