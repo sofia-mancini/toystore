@@ -1,6 +1,7 @@
 <?php
 
-  include 'includes/header.php';
+  require_once 'inclues/database-connection.php';
+  require_once 'includes/session.php';
 
   if ($logged_in) {                                       // If already logged in  
     header('Location: profile.php');                     // Redirect to profile page 
@@ -18,6 +19,9 @@
       exit;                                 // Stop further code running 
     }
   }
+
+  include 'includes/header.php';
+  
 ?> 
 
 <div id="content" class="login-container animate-bottom">

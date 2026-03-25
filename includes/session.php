@@ -39,6 +39,8 @@
 	    session_destroy();									// Delete session file							
 	}
 
+	
+
 	function authenticate (PDO $pdo, string $username, string $password)
 	{
 		$sql = "SELECT * FROM customer
@@ -50,8 +52,8 @@
 		return $user;
 	}
 	
-	
-?>
+
+// End of session.php – do NOT add any whitespace, new lines, or closing tag after this line
 
 
 

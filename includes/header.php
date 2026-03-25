@@ -1,7 +1,7 @@
 <?php
 
-    require 'database-connection.php';
-    require 'session.php';
+    require_once 'database-connection.php';
+    require_once 'session.php';
 
 ?>
 
