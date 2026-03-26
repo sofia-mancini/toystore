@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home1/sofiamancini/repositories/toystore
+    - export DEPLOYPATH=/home1/sofiamancini/public_html/toystore
     - /bin/cp -R * $DEPLOYPATH
